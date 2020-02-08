@@ -155,11 +155,6 @@ function addDepartments() {
         name: "addDeptName",
         message: "Please enter the name of the department you wish to add."
       },
-    //   {
-    //     type: "input",
-    //     name: "",
-    //     message: "Please enter any other info!"
-    //   }
     ])
     .then(function(answer) {
       // when finished prompting, insert a new item into the table with the info
@@ -189,6 +184,11 @@ function addRoles() {
         type: "input",
         name: "addRoleSalary",
         message: "Please enter the salary of the role"
+      },
+      {
+        type: "input",
+        name: "addRoleDeptID",
+        message: "Please enter the ID of the role's department"
       }
     ])
     .then(function(answer) {
