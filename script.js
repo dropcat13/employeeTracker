@@ -189,11 +189,6 @@ function addRoles() {
         type: "input",
         name: "addRoleSalary",
         message: "Please enter the salary of the role"
-      },
-      {
-        type: "input",
-        name: "addRoleDeptID",
-        message: "Please enter the department ID of the role"
       }
     ])
     .then(function(answer) {
@@ -306,7 +301,7 @@ function viewEmployees() {
     .prompt({
       type: "input",
       name: "employeeIDAnswer",
-      message: "Please enter the ID of the employee you wish to view."
+      message: "Please enter the id of the employee you wish to view."
     })
     .then(function(answer) {
       connection.query(
@@ -316,7 +311,7 @@ function viewEmployees() {
           if (err) throw err;
 
           // Log all results of the SELECT statement
-          console.table(res);
+          console.log(res);
         //   startQuestions();
         })
       )}
