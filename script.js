@@ -268,7 +268,7 @@ function viewDepartments() {
 
           // Log all results of the SELECT statement
           console.table(res);
-          // startQuestions();
+          startQuestions();
         }
       )}
     );
@@ -289,8 +289,8 @@ function viewRoles() {
           if (err) throw err;
 
           // Log all results of the SELECT statement
-          console.log(res);
-        //   startQuestions();
+          console.table(res);
+          startQuestions();
         }
       )}
     );
@@ -311,8 +311,8 @@ function viewEmployees() {
           if (err) throw err;
 
           // Log all results of the SELECT statement
-          console.log(res);
-        //   startQuestions();
+          console.table(res);
+          startQuestions();
         })
       )}
     );
