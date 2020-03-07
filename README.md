@@ -5,11 +5,8 @@ As a business owner
 I want to be able to view and manage the departments, roles, and employees in my company
 so that I can organize and plan my business.
 
-## pdf example image
-[screenshot] (image)
-
 # gif of working application
-[screenshot] (image)
+![working application](Homework12Gif.gif)
 
 # Technologies used
 This project used node.js with various packages including inquirer and a mysql extension. I used mysql workbench to help with development and debugging. 
