@@ -1,4 +1,4 @@
-# homework12-employeeTracker
+# Employee Tracker
 
 ## User Story
 As a business owner
